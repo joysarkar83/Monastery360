@@ -79,6 +79,10 @@ nav img {
 nav a,h1{
 	font-family: "Oswald", sans-serif;
 }
+nav a:hover, nav h1:hover {
+	color: var(--saffron);
+	transition: color 0.3s ease;
+}
 
 .hero {
 	height: 90vh;
@@ -186,6 +190,7 @@ nav a,h1{
 .archives-button:hover {
 	background-color: var(--dark);
     color: var(--gold);
+	transform: translateY(-2px);
     transition: 0.3s;
 }
 
