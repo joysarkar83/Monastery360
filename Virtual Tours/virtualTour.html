@@ -19,28 +19,31 @@
 <body>
     <nav>
         <div class="nav-left">
-            <a href="index.html" class="nav-logo"><img src="/Resources/Icons/favicon.ico" alt="Logo" /></a>
-            <a href="" class="nav-title">
+            <a href="index.html" class="nav-logo"><img src="/Resources/Icons/favicon.ico" alt="Logo"></a>
+            <a href="/index.html" class="nav-title">
                 <h1>Monastery 360</h1>
             </a>
         </div>
         <div class="nav-mid">
             <form action="">
-                <input class="nav-search-bar" type="search" name="" id="" placeholder="Search..." />
-                <img src="/Resources/Icons/search_icon.svg" alt="search" />
+                <input class="nav-search-bar" type="search" name="" id="" placeholder="Search...">
+                <img src="/Resources/Icons/search_icon.svg" alt="search">
             </form>
         </div>
         <div class="nav-right">
-            <a href="">Home</a>
+            <a href="/index.html">Home</a>
             <a href="/Virtual Tours/virtualTour.html">Virtual Tours</a>
-            <a href="">Archives</a>
-            <a href="">Cultural Calendar</a>
+            <a href="/Digital Archives/archives.html">Archives</a>
+            <a href="/Calendar/calendar.html">Cultural Calendar</a>
             <a href="">About</a>
         </div>
     </nav>
 
     <section class="hero">
-        <div id="viewer"></div>
+        <iframe id="viewer"
+            src="https://momento360.com/e/u/253fbb81428143d1b091bdb91bbe06fa?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&pan-speed=-0.05&wheel=false&display-mode=clean"
+            frameborder="0" width="100%" height="600px" allowfullscreen="true"></iframe>
+
         <div class="hero-bottom-right">
             <h1 class="hero-title">Explore Sikkim's Monasteries in 360</h1>
             <h3 class="hero-tagline">
@@ -151,7 +154,9 @@
     <script src="/JavaScript/virtualTour.js"></script>
     <script src="/JavaScript/rotatate360.js"></script>
     <script src="/JavaScript/panolens.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js" integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"
+        integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

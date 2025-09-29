@@ -1,0 +1,78 @@
+:root {
+	--navy: #19345d;
+	--saffron: #d97a2c;
+	--gold: #c0a06d;
+	--dark: #333333;
+	--transparent-dark: #33333396;
+	--white: #ffffff;
+}
+
+@import url("/Index/index.css");
+
+.calendar-main{
+    margin: 1rem auto;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.calendar-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--navy);
+    font-family: "Oswald", sans-serif;
+}
+
+.calendar-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.events-container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.events-container h3{
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--navy);
+    font-family: "Merriweather", sans-serif;
+    text-decoration: underline;
+}
+
+.event-tab{
+    background-color: var(--navy);
+    padding: 1rem 2rem;
+    color: var(--gold);
+    border-radius: 30px;
+    width: 90%;
+}
+.event-title{
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.event-desc{
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: var(--white);
+}
+.event-tab:hover{
+    background-color: var(--dark);
+    color: var(--gold);
+    transition: 0.3s;
+}
