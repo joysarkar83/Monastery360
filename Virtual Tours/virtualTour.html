@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Tours - Explore Sikkim's Monasteries in 360</title>
+    <link rel="stylesheet" href="/Index/index.css" />
+    <link rel="shortcut icon" href="/Resources/Icons/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/Index/index.css" />
+    <link rel="stylesheet" href="/Virtual Tours/virtualTour.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="nav-logo"><img src="/Resources/Icons/favicon.ico" alt="Logo" /></a>
+            <a href="" class="nav-title">
+                <h1>Monastery 360</h1>
+            </a>
+        </div>
+        <div class="nav-mid">
+            <form action="">
+                <input class="nav-search-bar" type="search" name="" id="" placeholder="Search..." />
+                <img src="/Resources/Icons/search_icon.svg" alt="search" />
+            </form>
+        </div>
+        <div class="nav-right">
+            <a href="">Home</a>
+            <a href="/Virtual Tours/virtualTour.html">Virtual Tours</a>
+            <a href="">Archives</a>
+            <a href="">Cultural Calendar</a>
+            <a href="">About</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div id="viewer"></div>
+        <div class="hero-bottom-right">
+            <h1 class="hero-title">Explore Sikkim's Monasteries in 360</h1>
+            <h3 class="hero-tagline">
+                Step inside sacred spaces from anywhere in the world.
+            </h3>
+        </div>
+    </section>
+
+    <section class="vt-container">
+        <!-- Rumtek Monastery -->
+        <div class="vt-item">
+            <img src="/Resources/Gallery/rumtek-monastery.jpg" alt="Rumtek Monastery" />
+            <div class="vt-item-text">
+                <h2 class="vt-title">Rumtek Monastery</h2>
+                <p class="vt-description">
+                    Experience the grandeur of Rumtek Monastery, the largest monastery in Sikkim, through our immersive
+                    360-degree virtual tour.
+                </p>
+                <button class="vt-button" data-tour="rumtek">Start Tour</button>
+            </div>
+        </div>
+
+        <!-- Tashiding Monastery -->
+        <div class="vt-item">
+            <img src="/Resources/Gallery/tashiding-monastery.jpg" alt="Tashiding Monastery" />
+            <div class="vt-item-text">
+                <h2 class="vt-title">Tashiding Monastery</h2>
+                <p class="vt-description">
+                    Explore the serene Tashiding Monastery, perched on a hilltop, and discover its spiritual ambiance
+                    with our 360-degree virtual tour.
+                </p>
+                <button class="vt-button" data-tour="tashiding">Start Tour</button>
+            </div>
+        </div>
+
+        <!-- Pemayangtse Monastery -->
+        <div class="vt-item">
+            <img src="/Resources/Gallery/pemayangtse-monastery.jpg" alt="Pemayangtse Monastery" />
+            <div class="vt-item-text">
+                <h2 class="vt-title">Pemayangtse Monastery</h2>
+                <p class="vt-description">
+                    Take a virtual stroll through Pemayangtse Monastery, one of Sikkim's oldest monasteries.
+                </p>
+                <button class="vt-button" data-tour="pemayangtse">Start Tour</button>
+            </div>
+        </div>
+
+        <!-- Enchey Monastery -->
+        <div class="vt-item">
+            <img src="/Resources/Gallery/enchey_monastery.jpg" alt="Enchey Monastery" />
+            <div class="vt-item-text">
+                <h2 class="vt-title">Enchey Monastery</h2>
+                <p class="vt-description">
+                    Discover the tranquil Enchey Monastery, located in Gangtok, and experience its peaceful surroundings
+                    with our 360-degree virtual tour.
+                </p>
+                <button class="vt-button" data-tour="enchey">Start Tour</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Viewer -->
+    <div class="vt-lightbox" id="vtLightbox">
+        <div class="vt-lightbox-content">
+            <button class="vt-close">&times;</button>
+            <div class="vt-iframe-container" id="vtIframeContainer">
+                <!-- Iframes will be injected dynamically -->
+            </div>
+            <div class="vt-lightbox-buttons">
+                <button class="vt-prev">
+                    < Prev</button>
+                        <button class="vt-next">Next ></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <div class="footer-left-top">
+                <div class="footer-logo"><img src="/Resources/Icons/favicon.ico" alt="Logo"></div>
+                <div class="footer-logo-text">
+                    <h1 class="footer-title">Monastery360</h1>
+                    <h3 class="footer-tagline">Experience Sikkim's monasteries anytime, anywhere.</h3>
+                </div>
+            </div>
+            <div class="footer-left-bottom">
+                <a href="">Home</a>
+                <a href="">Tour</a>
+                <a href="">Contact</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-contact">
+                <p><b>Email:</b> contact@sikkimtourism.in</p>
+                <p><b>Phone:</b> +91 7001204092</p>
+                <p><b>Address:</b> Sikkim Tourism Development Corporation,<br>Gangtok, Sikkim, India</p>
+            </div>
+    </footer>
+
+    <script src="/JavaScript/virtualTour.js"></script>
+    <script src="/JavaScript/rotatate360.js"></script>
+    <script src="/JavaScript/panolens.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js" integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
