@@ -218,7 +218,7 @@ nav a:hover, nav h1:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 1rem;
+	gap: 0.5rem;
 	color: var(--gold);
 }
 .calendar-tab {
@@ -230,7 +230,6 @@ nav a:hover, nav h1:hover {
 	font-family: "Oswald", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
-	margin-bottom: 0.5rem;
 }
 .calendar-more {
 	color: var(--white);
