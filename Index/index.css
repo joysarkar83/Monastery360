@@ -76,6 +76,9 @@ nav img {
 	gap: 20px;
 	margin-right: 20px;
 }
+.nav-right a {
+	align-self: center;
+}
 nav a,h1{
 	font-family: "Oswald", sans-serif;
 }
@@ -170,6 +173,8 @@ nav a:hover, nav h1:hover {
 	width: 100px;
 	margin-bottom: 1rem;
 	border-radius: 50%;
+	background-color: var(--saffron);
+	color: var(--white);
 }
 .feature-button,
 .calendar-more,
@@ -209,10 +214,6 @@ nav a:hover, nav h1:hover {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
-.calendar-left img {
-	height: 300px;
-	border-radius: 10px;
-}
 .calendar-right {
 	display: flex;
 	flex-direction: column;
@@ -225,6 +226,12 @@ nav a:hover, nav h1:hover {
 	padding: 1rem;
 	border-radius: 20px;
 }
+.calendar-title{
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
 .calendar-more {
 	color: var(--white);
 	background-color: var(--navy);
@@ -232,6 +239,12 @@ nav a:hover, nav h1:hover {
 	width: fit-content;
 	padding: 0.5rem 1rem;
 	border-radius: 30px;
+}
+.calendar-tab:hover {
+	background-color: var(--dark);
+	padding: 1rem;
+	border-radius: 20px;
+	transition: 0.5s;
 }
 
 .archives {
