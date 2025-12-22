@@ -8,11 +8,11 @@ Digitize and Showcase Monasteries of Sikkim for Tourism and Cultural Preservatio
 ```
 ## Description	
 ```
-### Background
+Background
 
 Sikkim is home to over 200 monasteries, many of which date back to the 17th and 18th centuries. These monasteries are rich in history, architecture, and spiritual significance. While some efforts have been made to preserve murals and digitize rare documents, there is no unified digital platform that offers tourists and researchers immersive access to these cultural treasures.
 
-### Proposed Solution
+Proposed Solution
 
 Monastery360: A Digital Heritage Platform for Sikkim’s Monasteries
 
