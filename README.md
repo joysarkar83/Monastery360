@@ -51,3 +51,8 @@ Travel & Tourism
 ```
 https://youtu.be/MOR5u6e_nZQ?si=M6AdjtfkbsPlyc17
 ```
+## License
+```
+MIT License
+Copyright (c) 2025 Joy Sarkar
+```
